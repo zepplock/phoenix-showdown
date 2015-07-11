@@ -15,7 +15,7 @@ defmodule Benchmarker.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {Benchmarker, []},
-     applications: [:phoenix, :cowboy, :logger]]
+     applications: [:phoenix, :cowboy, :logger, :postgrex, :ecto]]
   end
 
   # Specifies your project dependencies
@@ -23,6 +23,8 @@ defmodule Benchmarker.Mixfile do
   # Type `mix help deps` for examples and options
   defp deps do
     [{:phoenix, github: "phoenixframework/phoenix", ref: "9d13da084bc09c94e7440be94be5fba8d33ac5ca"},
-     {:cowboy, "~> 1.0"}]
+     {:cowboy, "~> 1.0"},
+     {:postgrex, ">= 0.0.0"},
+     {:ecto, ">= 0.0.0"}]
   end
 end

@@ -7,6 +7,7 @@ defmodule Benchmarker do
     import Supervisor.Spec, warn: false
 
     children = [
+      worker(Benchmarker.Repo, []),
       # Start the endpoint when the application starts
       worker(Benchmarker.Endpoint, []),
 

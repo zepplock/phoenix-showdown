@@ -5,6 +5,10 @@
 # is restricted to this project.
 use Mix.Config
 
+config :benchmarker, Benchmarker.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  database: "json_api_bench_production"
+
 # Configures the endpoint
 config :benchmarker, Benchmarker.Endpoint,
   url: [host: "localhost"],
