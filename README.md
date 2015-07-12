@@ -14,7 +14,7 @@ On my MBP
 
 | Framework      | Throughput (req/s) | Latency (ms) | Consistency (σ ms) |
 | :------------- | -----------------: | -----------: | -----------------: |
-| Phoenix        |               730  |      135.00  |             42.00  |
+| Phoenix        |              5500  |       18.00  |              2.00  |
 | Rails          |              1288  |       45.00  |             17.00  |
 | Play           |                 -  |           -  |                 -  |
 
