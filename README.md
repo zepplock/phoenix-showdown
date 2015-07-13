@@ -17,7 +17,7 @@ On my MBP
 | Phoenix13      |              6000  |       16.40  |              1.44  |
 | Phoenix13(Ecto)|              5876  |       17.03  |              1.71  |
 | Rails          |              1288  |       45.00  |             17.00  |
-| Play           |                 -  |           -  |                 -  |
+| Play           |              7411  |       14.42  |             10.54  |
 
 ### Ecto Pool Size Comparative Benchmark Numbers for Phoenix13(Ecto)
 
