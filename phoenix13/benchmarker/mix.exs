@@ -31,9 +31,10 @@ defmodule Benchmarker.Mixfile do
   defp deps do
     [{:phoenix, "~> 0.13.1"},
      {:phoenix_ecto, "~> 0.4"},
-     {:postgrex, ">= 0.0.0"},
+     {:postgrex, ">= 0.9.0"},
      {:phoenix_html, "~> 1.0"},
      {:phoenix_live_reload, "~> 0.4", only: :dev},
-     {:cowboy, "~> 1.0"}]
+     {:cowboy, "~> 1.0"},
+     {:ecto, github: "elixir-lang/ecto", override: true}]
   end
 end
