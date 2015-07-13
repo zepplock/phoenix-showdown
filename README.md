@@ -19,5 +19,15 @@ On my MBP
 | Rails          |              1288  |       45.00  |             17.00  |
 | Play           |                 -  |           -  |                 -  |
 
+### Ecto Pool Size Comparative Benchmark Numbers for Phoenix13(Ecto)
+
+| Pool Size      | Throughput (req/s) | Latency (ms) | Consistency (σ ms) |
+| :------------- | -----------------: | -----------: | -----------------: |
+|              1 |              1584  |       62.99  |              6.22  |
+|              5 |              5545  |       18.02  |              1.05  |
+|             10 |              5843  |       17.10  |              1.07  |
+|             20 |              5886  |       16.97  |              1.48  |
+|             30 |              5908  |       16.91  |              2.10  |
+|             50 |              5925  |       16.86  |              3.51  |
 
 Ecto master at https://github.com/elixir-lang/ecto/commit/c2e26c7f7e22fd6a3a22ba8d2018746527f8b1c3
