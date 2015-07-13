@@ -19,6 +19,8 @@ On my MBP
 | Rails          |              1288  |       45.00  |             17.00  |
 | Play           |              7411  |       14.42  |             10.54  |
 
+* Play was using 570% CPU, Phoenix was at 450%
+
 ### Ecto Pool Size Comparative Benchmark Numbers for Phoenix13(Ecto)
 
 | Pool Size      | Throughput (req/s) | Latency (ms) | Consistency (σ ms) |
