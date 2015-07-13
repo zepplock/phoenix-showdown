@@ -14,7 +14,10 @@ On my MBP
 
 | Framework      | Throughput (req/s) | Latency (ms) | Consistency (σ ms) |
 | :------------- | -----------------: | -----------: | -----------------: |
-| Phoenix        |              5500  |       18.00  |              2.00  |
+| Phoenix13      |              6000  |       16.40  |              1.44  |
+| Phoenix13(Ecto)|              5876  |       17.03  |              1.71  |
 | Rails          |              1288  |       45.00  |             17.00  |
 | Play           |                 -  |           -  |                 -  |
 
+
+Ecto master at https://github.com/elixir-lang/ecto/commit/c2e26c7f7e22fd6a3a22ba8d2018746527f8b1c3
